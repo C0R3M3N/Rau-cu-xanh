@@ -1,6 +1,6 @@
 package com.nhom12.rau_cu_xanh.model
 
-class sanPham {
+class SanPham {
     private val ID = 0
     private val Num = 0
     private val Name: String? = null
@@ -12,7 +12,7 @@ class sanPham {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
 
-        other as sanPham
+        other as SanPham
 
         if (ID != other.ID) return false
         if (Num != other.Num) return false
